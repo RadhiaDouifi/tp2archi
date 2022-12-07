@@ -1,9 +1,10 @@
 
-public class Universite {
+public class Universite implements IUniversite {
 
- private int i_univ; //identifiant unique de l'université
- private String nom;
- private TypePackage pack;
+	 private int i_univ; //identifiant unique de l'université
+	 private String nom;
+	 private TypePackage pack;
+
  
 	public Universite(int i_univ, String nom, TypePackage pack) {
 	super();
